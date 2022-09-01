@@ -13,6 +13,7 @@ body {
 .important_text {
     color: #92401b;
     font-weight: bold;
+    font-size: 100%;
     display: flex;
 }
 
@@ -23,6 +24,8 @@ body {
     font-size: 30pt;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 1%;
+    display: flex;
+    justify-content: center;
 }
 
 .date_product_name_container {
