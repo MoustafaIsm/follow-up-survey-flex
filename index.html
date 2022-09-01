@@ -1,0 +1,205 @@
+<html>
+
+    <head>
+        <title>Follow Up Servey</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+
+    <body>
+        <div class="body_container">
+            <!--Title-->
+            <div class="title_container">
+                <p class="important_text">Follow Up Survey</p>
+            </div>
+            <!--Form-->
+            <form>
+                <div class="form_container">
+                    <!--Date and Product Name-->
+                    <div class="date_product_name_container">
+                        <!--Date-->
+                        <div class="date_container">
+                            <p class="important_text"><b>When did you use our service?</b> </p>
+                            <input type="date" class="date_text_input">
+                            <p class="guide_container">Date</p>
+                        </div>
+                        <!--Product Name-->
+                        <div class="product_name_container">
+                            <p class="important_text"><b>Name of product or service</b></p>
+                            <input type="text" class="product_name_text_input">
+                        </div>
+                    </div>
+                    <!--Question 1-->
+                    <div class="row_of_questions_container">
+                        <p class="important_text"><b>Overall, How satisfied are you with the product or service?</b></p>
+                        <!--Options-->
+                        <div class="options_container">
+
+                            <div class="left_side_container">
+                                <!--Option 1-->
+                                <div>
+                                    <input type="radio" id="very_satisfied" name="satisfaction" value="very satisfied">
+                                    <label for="very_satisfied">Very satisfied</label>
+                                </div>
+                                <!--Option 2-->
+                                <div>
+                                    <input type="radio" id="neutral" name="satisfaction" value="neutral">
+                                    <label for="neutral">Neutral</label>
+                                </div>
+                                <!--Option 3-->
+                                <div>
+                                    <input type="radio" id="very_unsatisfied" name="satisfaction" value="very unsatisfied">
+                                    <label for="very_unsatisfied">Very unsatisfied</label>
+                                </div>
+                            </div>
+
+                            <div class="right_side_container">
+                                <!--Option 4-->
+                                <div>
+                                    <input type="radio" id="satisfied" name="satisfaction" value="satisfied">
+                                    <label for="satisfied">Satisfied</label>
+                                </div>
+                                <!--Option 5-->
+                                <div>
+                                    <input type="radio" id="unsatisfied" name="satisfaction" value="unsatisfied">
+                                    <label for="unsatisfied">Unsatisfied</label>
+                                </div>
+                                <!--Option 6-->
+                                <div>
+                                    <input type="radio" id="N/A" name="satisfaction" value="N/A">
+                                    <label for="N/A">N/A</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--Question 2-->
+                    <div class="row_of_questions_container">
+                        <p class="important_text"><b>Did our product or service meet your expectations?</b></p>
+                        <!--Options-->
+                        <div class="options_container">
+
+                            <div class="left_side_container">
+                                <!--Option 1-->
+                                <div>
+                                    <input type="radio" id="yes_expectations" name="expectations" value="yes">
+                                    <label for="yes_expectations">Yes</label>
+                                </div>
+                            </div>
+
+                            <div class="right_side_container">
+                                <!--Option 2-->
+                                <div>
+                                    <input type="radio" id="no_expectations" name="expectations" value="no" checked>
+                                    <label for="no_expectations">No</label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Question 3-->
+                    <div class="row_of_questions_container">
+                        <p class="important_text"><b>Would you recommend this product or service to a friend?</b></p>
+                        <!--Options-->
+                        <div class="options_container">
+
+                            <div class="left_side_container">
+                                <!--Option 1-->
+                                <div>
+                                    <input type="radio" id="yes_recomendation" name="recomendations" value="yes">
+                                    <label for="yes_recomendation">Yes</label>
+                                </div>
+                            </div>
+
+                            <div class="right_side_container">
+                                <div>
+                                    <input type="radio" id="no_recomendation" name="recomendations" value="no" checked>
+                                    <label for="no_recomendation">No</label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Question 4-->
+                    <div class="row_of_questions_container">
+                        <p class="important_text"><b>What aspect of the product or service were you mostly satisfied by?</b></p>
+                        <!--Options-->
+                        <div class="options_container">
+
+                            <div class="left_side_container">
+                                <!--Option 1-->
+                                <div>
+                                    <input type="radio" id="most_satisfied_quality" name="most_satisfied" value="quality">
+                                    <label for="most_satisfied_quality">Quality</label>
+                                </div>
+                                <!--Option 2-->
+                                <div>
+                                    <input type="radio" id="most_satisfied_customer_service" name="most_satisfied" value="customer_service">
+                                    <label for="most_satisfied_customer_service">Customer service</label>
+                                </div>
+                            </div>
+
+                            <div class="right_side_container">
+                                <!--Option 3-->
+                                <div>
+                                    <input type="radio" id="most_satisfied_price" name="most_satisfied" value="price">
+                                    <label for="most_satisfied_price">Price</label>
+                                </div>
+                                <!--Option 4-->
+                                <div>
+                                    <input type="radio" id="most_satisfied_installation" name="most_satisfied" value="installation">
+                                    <label for="most_satisfied_installation">Installation or first use experience</label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Question 5-->
+                    <div class="row_of_questions_container">
+                        <p class="important_text"><b>What aspect of the product or service were you least satisfied by?</b></p>
+                        <!--Options-->
+                        <div class="options_container">
+
+                            <div class="left_side_container">
+                                <!--Option 1-->
+                                <div>
+                                    <input type="radio" id="least_satisfied_quality" name="least_satisfied" value="quality">
+                                    <label for="least_satisfied_quality">Quality</label>
+                                </div>
+                                <!--Option 2-->
+                                <div>
+                                    <input type="radio" id="least_satisfied_customer_service" name="least_satisfied" value="customer_service">
+                                    <label for="least_satisfied_customer_service">Customer service</label>
+                                </div>
+                            </div>
+
+                            <div class="right_side_container">
+                                <!--Option 3-->
+                                <div>
+                                    <input type="radio" id="least_satisfied_price" name="least_satisfied" value="price">
+                                    <label for="least_satisfied_price">Price</label>
+                                </div>
+                                <!--Option 4-->
+                                <div>
+                                    <input type="radio" id="least_satisfied_installation" name="least_satisfied" value="installation">
+                                    <label for="least_satisfied_installation">Installation or first use experience</label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Additional Comments-->
+                    <div class="additional_comments_container">
+                        <p class="important_text"><b>Additional comments: </b></p>
+                        <textarea cols="90%" rows="10" placeholder="Type here..."></textarea>
+                    </div>
+                    <div class="submit_container">
+                        <input type="submit" class="submit_input">
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+    </body>
+
+</html>

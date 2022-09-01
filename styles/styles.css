@@ -1,0 +1,104 @@
+body {
+    background-color: #b3b3b3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body_container {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 4%;
+    background-color: #e3e3e3;
+}
+
+.important_text {
+    color: #92401b;
+}
+
+.title_container {
+    width: 98%;
+    background-color: white;
+    text-align: center;
+    font-size: 30pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1%;
+}
+
+.date_product_name_container {
+    display: flex;
+    padding: 5%;
+}
+
+.date_container {
+    flex-grow: 0.5;
+}
+
+.product_name_container {
+    flex-grow: 0.3;
+}
+
+.date_text_input {
+    width: 90%;
+    height: 30px;
+    border: 2px solid grey;
+}
+
+.product_name_text_input {
+    width: 100%;
+    height: 30px;
+    border: 2px solid grey;
+}
+
+.guide_container {
+    font-size: x-small;
+    color: gray;
+}
+
+.row_of_questions_container {
+    padding: 5%;
+}
+
+.options_container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.left_side_container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+}
+
+.right_side_container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.additional_comments_container {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.submit_container {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit_input {
+    width: 12em;
+    height: 3em;
+    border: 0px;
+    border-radius: 0.2em;
+    margin-top: 2em;
+    background-image: linear-gradient(black,gray);
+    color: white;
+}
+
+label {
+    color: #9d512e;
+}
