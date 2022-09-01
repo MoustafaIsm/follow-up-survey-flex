@@ -12,6 +12,8 @@ body {
 
 .important_text {
     color: #92401b;
+    font-weight: bold;
+    display: flex;
 }
 
 .title_container {
